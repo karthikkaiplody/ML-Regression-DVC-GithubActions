@@ -1,8 +1,6 @@
 import os
 import wget
-import sys
-sys.path.append('dev-demo/utils')
-from utils.logger import get_logger
+from logger import get_logger
 
 LOG = get_logger('get_data.py')
 

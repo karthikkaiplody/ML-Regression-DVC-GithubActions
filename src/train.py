@@ -11,7 +11,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.impute import SimpleImputer
 from src.get_data import LOG
-from utils.logger import get_logger
+from logger import get_logger
 
 LOG = get_logger('train.py')
 

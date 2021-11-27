@@ -1,5 +1,5 @@
 import pandas as pd
-from utils.logger import get_logger
+from logger import get_logger
 
 LOG = get_logger('process_data.py')
 
