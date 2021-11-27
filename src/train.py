@@ -10,7 +10,6 @@ import json
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.impute import SimpleImputer
-from src.get_data import LOG
 from logger import get_logger
 
 LOG = get_logger('train.py')
