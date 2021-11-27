@@ -4,8 +4,8 @@ stages:
     cmd: python src/get_data.py
     deps:
     - path: src/get_data.py
-      md5: 2d349cea0fc24ff06a0d3e123d746205
-      size: 638
+      md5: e02bf912d8f244b96b1395c4fa86e47a
+      size: 632
     outs:
     - path: data_raw.csv
       md5: a6aec8da63a5fa2619af025a76746f29
@@ -17,8 +17,8 @@ stages:
       md5: a6aec8da63a5fa2619af025a76746f29
       size: 68868
     - path: src/process_data.py
-      md5: 28e62bec427504db282934487c795eb3
-      size: 1113
+      md5: 35184da3443d8ae6b0b188b0f79131e4
+      size: 1107
     outs:
     - path: data_processed.csv
       md5: 3b20a3a6ac0570f3de28b77d1e88f932
@@ -30,8 +30,8 @@ stages:
       md5: 3b20a3a6ac0570f3de28b77d1e88f932
       size: 24521
     - path: src/train.py
-      md5: 25db5252b980e723fbfabbe4f653d1be
-      size: 1648
+      md5: cd626c6724292e81554535d95508b478
+      size: 1613
     outs:
     - path: by_region.png
       md5: 28bed57d3405d747645ae0f22e8bf114
